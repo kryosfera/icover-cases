@@ -1,0 +1,14 @@
+{
+  "name": "icover-cases",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "montar": "python3 scripts/montar.py",
+    "test": "node --test test/*.test.ts && python3 test/comparar_mirror.py",
+    "dev": "npx -y wrangler@4 dev",
+    "deploy": "npx -y wrangler@4 deploy"
+  }
+}
