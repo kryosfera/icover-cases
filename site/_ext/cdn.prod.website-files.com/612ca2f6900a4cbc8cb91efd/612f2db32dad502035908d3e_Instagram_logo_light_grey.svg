@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-5265.000000, -923.000000)" fill="#D3D3D3" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(5265.000000, 923.000000)">
+                <path d="M352,0 L160,0 C71.648,0 0,71.648 0,160 L0,352 C0,440.352 71.648,512 160,512 L352,512 C440.352,512 512,440.352 512,352 L512,160 C512,71.648 440.352,0 352,0 Z M464,352 C464,413.76 413.76,464 352,464 L160,464 C98.24,464 48,413.76 48,352 L48,160 C48,98.24 98.24,48 160,48 L352,48 C413.76,48 464,98.24 464,160 L464,352 Z" id="Shape-Copy-3"></path>
+                <path d="M256,128 C185.312,128 128,185.312 128,256 C128,326.688 185.312,384 256,384 C326.688,384 384,326.688 384,256 C384,185.312 326.688,128 256,128 Z M256,336 C211.904,336 176,300.096 176,256 C176,211.872 211.904,176 256,176 C300.096,176 336,211.872 336,256 C336,300.096 300.096,336 256,336 Z" id="Shape-Copy-4"></path>
+                <circle id="Oval-Copy-2" cx="394" cy="118" r="17"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
