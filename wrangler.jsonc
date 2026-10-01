@@ -1,0 +1,18 @@
+// Cloudflare Worker con assets estáticos. site/ se genera con `python3 scripts/montar.py`
+// y se versiona en el repo, así que el despliegue no necesita build: `npx wrangler deploy`.
+// Variables (panel de Cloudflare o `wrangler secret put`): RESEND_API_KEY (secreto),
+// CONTACT_TO y CONTACT_FROM. Sin ellas, /api/contacto responde 500 y la web muestra el error de Webflow.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "icover-cases",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./site",
+    "binding": "ASSETS",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "observability": { "enabled": true }
+}
